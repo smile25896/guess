@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  background-color: #e3e7ec;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 4px 3px 8px 1px rgb(196 196 196 / 75%);
+  cursor: pointer;
+
+  &.unstart {
+    background-color: #4f76b9;
+
+    .question {
+      color: white;
+    }
+  }
+
+  .question {
+    font-size: 3em;
+  }
+}
