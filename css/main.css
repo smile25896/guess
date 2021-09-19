@@ -26,6 +26,7 @@ body {
   background-color: white;
   box-shadow: 4px 3px 8px 1px rgba(196, 196, 196, 0.75);
   cursor: pointer;
+  padding: 20px;
 }
 .card.unstart {
   background-color: #4f76b9;
@@ -35,6 +36,7 @@ body {
 }
 .card .question {
   font-size: 3em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
